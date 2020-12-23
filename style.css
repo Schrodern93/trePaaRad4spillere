@@ -1,0 +1,35 @@
+.square{
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding: 10px;
+    /* position: relative; */
+    display: flex;
+    background-color: lightblue;
+    border: 2px solid black;
+    color:red; 
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+     vertical-align: middle; 
+     border-radius: 10%;
+}
+#players{
+    font-size: 40px;
+}
+.square:nth-child(4n +1){
+    clear: left; 
+}
+.winner{
+    font-size: 100px;
+    position: relative;
+    bottom:0%;
+}
+.hver3{
+    clear:left;
+}
+button{
+    background-color: lightblue;
+    border-radius: 10%;
+    
+}
